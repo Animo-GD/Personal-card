@@ -1,0 +1,37 @@
+body{
+    padding: 20px;
+}
+.card {
+    background-color:#ddebf8;
+    color:#2b2839;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    margin: auto;
+    border-bottom: 10px solid #d8cefe;
+}
+.avatar{
+    width: 200px;
+    border: 2px solid #514258;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, .3);
+}
+
+.info{
+    text-align: center;
+    line-height: 15px;
+    margin-top: 20px;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+.avatar:hover{
+    transform: scale(1.1);
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
